@@ -1,0 +1,35 @@
+Bootup computer and F2/Fn+F2 to get to setup.
+Enable Secure Boot, and if possible enable Legacy boot (instead of UEFI 
+boot)
+
+Or with some computers, just Boot up + F12/Fn+F12 and select the USB 
+stick / USB dvd as boot device.
+
+Install Xubuntu (with or without safe graphics)
+
+English
+
+Finnish keyboard layout (or whatever you have/want)
+
+I first did change from the RST mode to AHCI mode using this 
+video as tutorial:   (I did not enable legacy boot though, 
+still UEFI)
+https://www.youtube.com/watch?v=0vWSg3hfu-8
+
+
+---
+Installing the Nvidia drivers for (x)ubuntu 20.04:
+https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-20-04-focal-fossa-linux
+> ubuntu-drivers devices
+> sudo apt install nvidia-driver-450         (That was the recommended one, took some minutes)
+> sudo reboot
+
+Installing the nvidia-docker:
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
+
+
+
+
+
+
+
