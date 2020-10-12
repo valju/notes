@@ -127,4 +127,3 @@ Mon Oct 12 19:42:39 2020
    47  ls
    48  pwd
    49  git status
-   50  history > historiaa5.txt
